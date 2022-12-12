@@ -34,7 +34,7 @@ export default function Register() {
             body: JSON.stringify(values)
         }
 
-        await fetch("https://aloe-live.vercel.app/api/auth/signup", options)
+        await fetch("${process.env.HOST} /api/auth/signup", options)
             .then(res => res.json().then(data => ({
                 data: data,
                 status: res.status,
@@ -46,8 +46,9 @@ export default function Register() {
                         redirect: false,
                         email: values.email,
                         password: values.password,
-                        callbackUrl: `${process.env.HOST}`
+                        callbackUrl: `${process.env.HOST} `
                     }).then(res => {
+                        console.log(res)
                         router.push(res.url)
                     })
                 } else {

@@ -2,8 +2,6 @@ import db from "../../../../firebase"
 import { hash } from "bcryptjs"
 
 export default async function handler(req, res) {
-
-
     if (req.method === 'POST') {
 
         if (!req.body) return res.status(404).json({ error: "No hay datos...!" });
@@ -26,6 +24,7 @@ export default async function handler(req, res) {
                     res.status(201).json({ status: true })
                 })
                 .catch((error) => {
+                    console.log(error)
                     res.status(404).json({ error });
                 });
         } else {
