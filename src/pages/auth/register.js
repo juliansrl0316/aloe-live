@@ -48,7 +48,6 @@ export default function Register() {
                         password: values.password,
                         callbackUrl: `${process.env.HOST} `
                     }).then(res => {
-                        console.log(res)
                         router.push(res.url)
                     })
                 } else {
