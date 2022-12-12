@@ -29,7 +29,7 @@ export default function Register() {
     async function onSubmit(values) {
         const options = {
             method: "POST",
-            headers: { 'Content-Type': 'application/json' },
+            headers: { 'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'  },
             body: JSON.stringify(values)
         }
 
@@ -47,7 +47,6 @@ export default function Register() {
                         password: values.password,
                         callbackUrl: "http://localhost:3000"
                     }).then(res => {
-                        console.log(res)
                         router.push(res.url)
                     })
                 } else {
