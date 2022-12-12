@@ -47,6 +47,7 @@ export default function Register() {
                         password: values.password,
                         callbackUrl: "http://localhost:3000"
                     }).then(res => {
+                        console.log(res)
                         router.push(res.url)
                     })
                 } else {

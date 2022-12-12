@@ -19,7 +19,8 @@ export default async function handler(req, res) {
                 .set({
                     password: await hash(password, 12),
                     username: username,
-                    role: "user"
+                    role: "user",
+                    enabled:true
                 })
                 .then(() => {
                     res.status(201).json({ status: true })
