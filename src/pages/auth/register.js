@@ -46,7 +46,7 @@ export default function Register() {
                         redirect: false,
                         email: values.email,
                         password: values.password,
-                        callbackUrl: `http://localhost:3000`
+                        callbackUrl: `${process.env.HOST}`
                     }).then(res => {
                         router.push(res.url)
                     })

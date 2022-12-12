@@ -30,4 +30,4 @@ Run commands
 
 3) ```yarn run dev```
 
-Ejecutar el comando stripe listen --forward-to http://localhost:3000/api/webhook
+Ejecutar el comando stripe listen --forward-to ${process.env.HOST}/api/webhook
