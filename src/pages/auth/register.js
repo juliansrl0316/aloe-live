@@ -29,11 +29,11 @@ export default function Register() {
     async function onSubmit(values) {
         const options = {
             method: "POST",
-            headers: { 'Content-Type': 'application/json','Access-Control-Allow-Origin': '*'  },
+            headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
             body: JSON.stringify(values)
         }
 
-        await fetch('http://localhost:3000/api/auth/signup', options)
+        await fetch(`${process.env.HOST}/api/auth/signup`, options)
             .then(res => res.json().then(data => ({
                 data: data,
                 status: res.status,
@@ -45,7 +45,7 @@ export default function Register() {
                         redirect: false,
                         email: values.email,
                         password: values.password,
-                        callbackUrl: "http://localhost:3000"
+                        callbackUrl: `${process.env.HOST}`
                     }).then(res => {
                         router.push(res.url)
                     })
