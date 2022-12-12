@@ -32,7 +32,7 @@ export default function Login() {
             redirect: false,
             email: values.email,
             password: values.password,
-            callbackUrl: `${process.env.HOST}`
+            callbackUrl: `http://localhost:3000`
         }).then(res => {
             if (res.status == 200 && res.ok == true && res.error == null) {
                 router.replace(res.url)
@@ -55,7 +55,7 @@ export default function Login() {
     }
 
     async function handleGoogleSignIn() {
-        signIn('google', { callbackUrl: `${process.env.HOST}` })
+        signIn('google', { callbackUrl: `http://localhost:3000` })
     }
 
     function loginValidate(values) {

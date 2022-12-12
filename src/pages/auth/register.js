@@ -29,11 +29,12 @@ export default function Register() {
     async function onSubmit(values) {
         const options = {
             method: "POST",
+            mode: "cors",
             headers: { 'Content-Type': 'application/json', 'Access-Control-Allow-Origin': '*' },
             body: JSON.stringify(values)
         }
 
-        await fetch(`${process.env.HOST}/api/auth/signup`, options)
+        await fetch(`https://aloe-live.vercel.app/api/auth/signup`, options)
             .then(res => res.json().then(data => ({
                 data: data,
                 status: res.status,
@@ -45,7 +46,7 @@ export default function Register() {
                         redirect: false,
                         email: values.email,
                         password: values.password,
-                        callbackUrl: `${process.env.HOST}`
+                        callbackUrl: `http://localhost:3000`
                     }).then(res => {
                         router.push(res.url)
                     })
