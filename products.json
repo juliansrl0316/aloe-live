@@ -1,0 +1,242 @@
+[
+    {
+        "id": 1,
+        "title": "Tratamiento crecepelo",
+        "price": 20.100,
+        "description": "La mascarilla de tratamiento CrecePelo tiene un color blanquecino y una textura cremosa y firme. Deja el cabello bien hidratado, suave y fácil de desenredar (un alivio para los cabellos que quedan “sedientos” después del champú), y es uno de los temas preferidos por los usuarios de la marca.",
+        "category": "Tratamientos",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_820308-MCO49337546641_032022-F.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 18
+        }
+    },
+    {
+        "id": 2,
+        "title": "Colágeno serum",
+        "price": 45.995,
+        "description": "Es una proteína de colágeno puro, muy parecido al colágeno producido por el organismo, que tiene una gran eficacia en estimular la producción endógena de la proteína. Ayuda a renovar y dar firmeza a la piel efecto relleno y tensor.",
+        "category": "Lociones",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_686056-MCO49048903236_022022-F.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 20
+        }
+    },
+    {
+        "id": 3,
+        "title": "Aloe Vera Y Vitamina E Tópico 60",
+        "price": 53.000,
+        "description": "Vitamina E + Aloe vera. Mantenga su piel suave y tersa con las capsulas Twist off llenas de vitamina e y aloe vera par una fácil aplicación sobre la piel.",
+        "category": "Cremas",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_900693-MCO47877111999_102021-F.jpg",
+        "rating": {
+            "rate": 4.0,
+            "count": 22
+        }
+    },
+    {
+        "id": 4,
+        "title": "Crema Eucerin Anti-Pigment day spf30 día de 50mL",
+        "price": 132.405,
+        "description": "Eucerin es una marca que ofrece una variedad de productos para el cuidado de la piel facial. Si buscas protegerla y mantenerla en forma, esta puede ser una buena opción.",
+        "category": "Cremas",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_681139-MLA49262600007_032022-F.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 185
+        }
+    },
+    {
+        "id": 5,
+        "title": "Loción Despigmentadora",
+        "price": 35.000,
+        "description": "Es una combinación de alfahidroxiacidos que son los encargados de ayudarle a la piel a: Renovar las células, Aclarar melasmas (producidas por el sol,la edad, la contaminación y el uso de anticonceptivos orales).",
+        "category": "Lociones",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_765192-MCO46764618919_072021-F.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 50
+        }
+    },
+    {
+        "id": 6,
+        "title": "Gel Power Gel Termoreductor Caliente 500g",
+        "price": 25.555,
+        "description": "Contribuye a la reducción del abdomen y en las áreas del cuerpo deseadas con elastina que humecta y acondiciona la piel.",
+        "category": "Belleza",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_966920-MCO26250345204_102017-F.jpg",
+        "rating": {
+            "rate": 3.9,
+            "count": 18
+        }
+    },
+    {
+        "id": 7,
+        "title": "Faja Fajate Postparto Cesárea",
+        "price": 154.000,
+        "description": "Es una faja que deja el busto libre que tiene una cremallera lateral de broches internos y permite un mayor ajuste. Faja de uso diario que moldea y realza la figura brindando alto control en la zona deseada, disimula la flacidez y da firmeza a la piel, corrige la postura aliviando los dolores de espalda.",
+        "category": "Belleza",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_896267-MCO42099008229_062020-F.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 14
+        }
+    },
+    {
+        "id": 8,
+        "title": "Kit de Microdermoabrasión Facial",
+        "price": 85.000,
+        "description": "Puntas de diamantes desgastan la superficie de la piel, mientras que van succionando los desechos que se producen. Así, se remueven las células muertas, y se propicia la consecuente regeneración tisular.",
+        "category": "Limpieza",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_621688-MCO50225622204_062022-F.jpg",
+        "rating": {
+            "rate": 2.9,
+            "count": 16
+        }
+    },
+    {
+        "id": 9,
+        "title": "Cera Depilatoria Perlas, Calentador Y Espátulas",
+        "price": 41.990,
+        "description": "Su uso es muy fácil, sólo conecte a la corriente, Gradúe la temperatura y deje calentar hasta que la cera esté líquida, deslice el aplicador en la piel en sentido al crecimiento del vello y retire la capa de cera. ¡FÁCIL DE USAR! Funciona con cualquier tipo de cera depilatoria.",
+        "category": "Depilacion",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_718599-MCO50961623694_082022-F.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 127
+        }
+    },
+    {
+        "id": 10,
+        "title": "Hilo Indu Organica Depilacion Hip",
+        "price": 19.400,
+        "description": "Hilo antibacterial (protege contra cualquier tipo de alergia o infección) Buena elasticidad para soportar el estrés durante el uso. Hecho del algodón de la más alta calidad en máquinas de última generación.",
+        "category": "Depilacion",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_754946-MCO49105302615_022022-F.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 123
+        }
+    },
+    {
+        "id": 11,
+        "title": "Camilla Para Masajes Profesional Plegable",
+        "price": 569.900,
+        "description": "La cama para masaje portátil ha sido diseñada para la comodidad de quien recibe el masaje como de quien lo da ya que permite ajustarse de 66 cm. a 91 cm. Podrás acomodarla a la altura ideal para ti, de manera fácil y segura, con sus 4 bases firmes y resistentes fabricadas en maderas finas de la mejor calidad.",
+        "category": "Masajes",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_939569-MCO48363983361_112021-F.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 47
+        }
+    },
+    {
+        "id": 12,
+        "title": "Crema Reductora Adelgazante",
+        "price": 24.990,
+        "description": "Hecha con extractos de Te Verde que desintoxica, afirma, tonifica y reduce medidas, Ideal para la cintura, las piernas, los glúteos, el abdomen y los brazos.",
+        "category": "Cremas",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_690654-MCO40444040476_012020-F.jpg",
+        "rating": {
+            "rate": 2.0,
+            "count": 57
+        }
+    },
+    {
+        "id": 13,
+        "title": "Sérum Sesderma Azelac ",
+        "price": 169.000,
+        "description": "Este producto disminuye las posibilidades de una reacción alérgica, por ello, puede resultar útil para aquellas personas con piel sensible o irritable.",
+        "category": "Lociones",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_780150-MLA50499028564_062022-F.jpg",
+        "rating": {
+            "rate": 4.0,
+            "count": 7
+        }
+    },
+    {
+        "id": 14,
+        "title": "Quita La Celulitis! - Formula Suiza",
+        "price": 169.000,
+        "description": "Aplica el gel sobre todas las áreas de tu cuerpo que deseas tratar, con movimientos circulares.Utilízalo por las mañanas y por las noches, de preferencia después del baño.",
+        "category": "Tratamientos",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_2X_768418-MLA48985971580_012022-F.jpg",
+        "rating": {
+            "rate": 3.0,
+            "count": 16
+        }
+    },
+    {
+        "id": 15,
+        "title": "Limpieza Facial Profunda",
+        "price": 50.000,
+        "description": "Es la forma utilizada para retirar impurezas, células muertas y de esta manera mantener nuestra piel limpia y con una nutrición adecuada. Para una limpieza facial profunda se limpia la piel, se exfolia, se aplican productos para desincrustar, se extraen las impurezas, se coloca aparatología (Vaporozono + Aaltafrecuencia) se aplican productos para nutrir y se aplica bloqueador solar.",
+        "category": "Limpieza",
+        "image": "https://centrosthetic.com.co/wp-content/uploads/2019/05/254737.jpg",
+        "rating": {
+            "rate": 4.3,
+            "count": 154
+        }
+    },
+    {
+        "id": 16,
+        "title": "Masaje de Reducción",
+        "price": 20.100,
+        "description": "Es una modalidad de masaje que se realiza con una presión fuerte y una velocidad más rápida a la usual. El masaje reductivo busca ayudar a eliminar el acumulo de grasa localizada y a la vez, estilizar el contorno de la figura logrando una silueta más estética.",
+        "category": "Masajes",
+        "image": "https://centrosthetic.com.co/wp-content/uploads/2019/05/crema-para-masajes-reductores-x-500ml-contourtherapy-idraet-D_NQ_NP_18496-MLA20155932711_092014-F.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 193
+        }
+    },
+    {
+        "id": 17,
+        "title": "Masajes Posquirúrgicos",
+        "price": 20.100,
+        "description": "El masaje post operatorio es un tratamiento que se recomienda después de haberse sometido a una cirugía ya sea estética o no. Normalmente todo cirujano después de una cirugía recomienda realizar sesiones de Drenaje Linfático.",
+        "category": "Masajes",
+        "image": "https://centrosthetic.com.co/wp-content/uploads/2019/05/post2.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 50
+        }
+    },
+    {
+        "id": 18,
+        "title": "Nutrición Facial",
+        "price": 100.000,
+        "description": "La Nutrición Celular es un tratamiento estético que promueve la generación de las células e hidrata la piel, devolviéndole el colágeno y la elasticidad, para darle una apariencia lozana y rejuvenecida al rostro del paciente",
+        "category": "Limpieza",
+        "image": "https://centrosthetic.com.co/wp-content/uploads/2019/05/274197.jpg",
+        "rating": {
+            "rate": 2.5,
+            "count": 150
+        }
+    },
+    {
+        "id": 19,
+        "title": "Micropigmentación de cejas",
+        "price": 150.000,
+        "description": "Es la técnica artística de tatuar tu piel como si fueran cabellos individuales, utilizando una herramienta portátil llamada microcuchilla, Esta micro cuchilla viene en un empaque estéril que se abre justo al momento de comenzar el proceso",
+        "category": "Belleza",
+        "image": "https://www.qhubocali.com/wp-content/uploads/2021/04/Ceja.jpg",
+        "rating": {
+            "rate": 5.0,
+            "count": 200
+        }
+    },
+    {
+        "id": 20,
+        "title": "Maquillaje sencillo",
+        "price": 50.000,
+        "description": "Servicio de maquillaje sencillo para dama que quiera verse y sentirse toda una mujer.",
+        "category": "Belleza",
+        "image": "https://i.pinimg.com/564x/bc/98/cc/bc98cc0079c9d3a6e496d67ab19ee854.jpg",
+        "rating": {
+            "rate": 4.5,
+            "count": 280
+        }
+    }
+]
