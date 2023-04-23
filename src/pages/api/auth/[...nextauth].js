@@ -6,6 +6,7 @@ import { compare } from 'bcryptjs';
 import db from "../../../../firebase";
 
 export default NextAuth({
+  secret: process.env.AUTH_SECRET,
   session: {
     strategy: 'jwt',
   },
